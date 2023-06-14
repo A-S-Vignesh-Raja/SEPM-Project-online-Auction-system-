@@ -1,0 +1,97 @@
+
+body
+{
+    background-image: url(signup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: grid;
+    place-items:center;
+}
+h1
+{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif; ;
+}
+.date
+{
+    margin-top: 18px;
+    
+    height: 20px;
+    font-size: 90px;
+    
+}
+.dateicon
+{
+    width: 22px;
+}
+.btn {
+  display: inline-block;
+  padding: 14px 12px;
+  border: 0;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.1);
+  backdrop-filter: blur(30px);
+  color: rgba(255,255,255,0.8);
+  font-size: 14px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 20px;
+  }
+  
+  .btn:hover {
+    
+    text-decoration: none;
+  }
+  input{
+    
+    border-style:none;
+    border-bottom: 1px solid white;
+    height: 4 0px;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+  }
+ .frm
+ {
+    background-color: white;
+    border-radius: 10px;
+    padding: 50px 50px 50px 50px;
+    /* From https://css.glass */
+    backdrop-filter: blur(2px) saturate(200%);
+    -webkit-backdrop-filter: blur(2px) saturate(200%);
+    background-color: rgba(56, 56, 56, 0.34);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    margin-top: 150px;
+
+ }
+ .personicon
+ {
+  color: white;
+  font-size: 20px;
+ }
+ .mailicon
+ {
+  color: white;
+  font-size: 20px;
+ }
+ .phoneicon
+ {
+  color: white;
+  font-size: 20px;
+ }
+.lockicon{
+    color: white;
+    font-size:20px;
+}
+ ::placeholder
+ {
+  color: white;
+  
+ }

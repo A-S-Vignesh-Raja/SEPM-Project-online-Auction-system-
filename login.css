@@ -1,0 +1,76 @@
+body{
+  background-image: url(saiiii.jpg);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  place-items: center;
+  display: grid;
+  height: 100%;
+
+}
+
+form {
+    width: 500px;
+    height: 350px;
+    margin-top: 200px;
+  
+    text-align: center;
+    line-height: 3.5rem;
+    color: #f1f1f1;
+    background: rgba( 25, 2, 2, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+  }
+  
+  .container{
+    margin-top: 50px;
+  }
+  p{
+    color: white;
+  }
+  .btn{
+    width: 100px;
+  }
+  .user{
+    height: 30px;
+    width: 250px;
+  }
+ .pass{
+  height: 30px;
+  width: 250px;
+ }
+a.forgot{
+  text-decoration: none;
+  color: white;
+}
+ a.forgot:hover{
+  color: white;
+ }
+ a.change-page{
+  text-decoration: none;
+  color: white;
+ }
+ a.change-page:hover{
+  text-decoration: none;
+  color: black;
+ }
+ .btn:hover{
+   color: black;
+ }
+ .container-1{
+  line-height: 30px;
+  margin-top: 10px;
+ }
+ .sign-up{
+	color: white;
+  text-decoration: solid;
+}
+.sign-up:hover{
+	text-decoration: none;
+	color: white;
+}
